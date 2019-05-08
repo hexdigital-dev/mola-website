@@ -38,8 +38,9 @@
 <script>
 import ButtonTop from './ButtonTop';
 
-const logoMola = require('~/assets/img/logos/mola-full-small.png');
-const logoSouthend = require('~/assets/img/logos/southend-small.png');
+const logoMola = require('~/assets/img/logos/mola-full-big.png');
+const logoSouthend = require('~/assets/img/logos/southend-big.png');
+
 
 export default {
     components: {
