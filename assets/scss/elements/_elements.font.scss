@@ -1,0 +1,20 @@
+/* ==========================================================================
+   #FONTS
+   ========================================================================== */
+
+
+/* ---Anglo-Saxon-Caps */
+
+@include add_font_cross_browse('Anglo-Saxon', './../fonts/Anglo-Saxon/');
+
+/* --/Anglo-Saxon-Caps */
+
+
+/* ---Futura */
+
+@include add_font_cross_browse_full('FuturaStd-Light', './../fonts/Futura/');
+@include add_font_cross_browse_full('FuturaStd-BookOblique', './../fonts/Futura/');
+@include add_font_cross_browse_full('FuturaStd-Bold', './../fonts/Futura/');
+@include add_font_cross_browse_full('FuturaStd-ExtraBold', './../fonts/Futura/');
+
+/* --/Futura */

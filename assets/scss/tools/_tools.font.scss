@@ -1,0 +1,40 @@
+/* ==========================================================================
+   # TOOLS FONT
+   ========================================================================== */
+
+/* adding new font in elements/elements.fonts */
+@mixin add_font($font_name, $link) {
+    @font-face {
+        font-family: $font_name;
+        font-style: normal;
+        font-weight: normal;
+        src: url($link);
+    }
+}
+
+/* adding new cross browse font in  elements/elements.fonts
+$font_name should be the same as the file in the folder */
+@mixin add_font_cross_browse($font_name, $folder) {
+    @font-face {
+        font-family: ($font_name);
+        font-style: normal;
+        font-weight: normal;
+        src: url('' + $folder + $font_name + '.eot');
+        src:
+            url('' + $folder + $font_name + '.eot?#iefix') format('embedded-opentype'),
+            url('' + $folder + $font_name + '.woff') format('woff');
+    }
+}
+
+@mixin add_font_cross_browse_full($font_name, $folder) {
+    @font-face {
+        font-family: ($font_name);
+        font-style: normal;
+        font-weight: normal;
+        src: url('' + $folder + $font_name + '.eot');
+        src:
+            url('' + $folder + $font_name + '.eot?#iefix') format('embedded-opentype'),
+            url('' + $folder + $font_name + '.woff') format('woff'),
+            url('' + $folder + $font_name + '.otf') format('otf');
+    }
+}

@@ -1,0 +1,33 @@
+/* ==========================================================================
+   #WRAPPER
+   ========================================================================== */
+
+/**
+ * Page-level constraining and wrapping elements.
+ */
+
+$inuit-wrapper-width: 1920px;
+$inuit-padding-size: $inuit-global-spacing-unit-large;
+
+@if (type-of($inuit-wrapper-width) != number) {
+    @error '`#{$inuit-wrapper-width}` needs to be a number.';
+}
+
+.o-wrapper {
+    @include inuit-clearfix();
+    margin-left:  auto;
+    margin-right: auto;
+    max-width: $inuit-wrapper-width;
+    padding-left:  $inuit-padding-size;
+    padding-right: $inuit-padding-size;
+}
+
+
+/**
+ * Padding variations
+ */
+
+.o-wrapper--vertical-padding {
+    padding-bottom:  $inuit-padding-size;
+    padding-top:  $inuit-padding-size;
+}

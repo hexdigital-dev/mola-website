@@ -1,0 +1,511 @@
+[
+    {
+        "id": "1",
+        "title": "Rediscovering a long-lost Anglo-Saxon instrument",
+        "hotspot": {
+            "x": "69%",
+            "y": "46%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "The lyre (Old English hearpe) was the most important type of stringed instrument in the ancient world; this is the first time the complete form of an Anglo-Saxon lyre has been recorded."
+                },
+                {
+                    "tag": "p",
+                    "text": "The wooden lyre had almost entirely decayed save for a soil stain within which metal fittings and a few fragments of wood remained. The whole soil stain was block-lifted for examination in the lab. Here, CT scans and micro-excavation revealed the complete form of an Anglo-Saxon lyre. Made of maple wood, it had a hollow sound box attached to a solid frame comprising two arms connected by a 'yoke' with evidence of ash tuning pegs. Two gilded copper-alloy discs with inlaid garnets riveted the yoke to the arms."
+                },
+                {
+                    "tag": "p",
+                    "text": "Raman spectroscopy identified the chemical make-up of the garnets as almandines; they probably originated from the Indian subcontinent or Sri Lanka. This treasured lyre had split from top to bottom in its lifetime but had been carefully repaired using iron, gilded copper-alloy and silver fittings. Animal hairs found on the lyre suggest it was inside an animal-skin bag."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/lyre/3-lyre.jpg",
+                    "alt": "A reconstruction drawing of the Anglo-Saxon lyre featuring the delicate repair work and garnet fittings © MOLA",
+                    "caption": "A reconstruction drawing of the Anglo-Saxon lyre featuring the delicate repair work and garnet fittings © MOLA"
+                },
+                {
+                    "src": "/lyre/1-lyre.jpg",
+                    "alt": "Remains of the lyre",
+                    "caption": "Remains of the lyre, type of stringed instrument, with decorative copper-alloy fittings with garnets at the centre © MOLA"
+                },
+                {
+                    "src": "/lyre/2-lyre.jpg",
+                    "alt": "",
+                    "caption": ""
+                },
+                {
+                    "src": "/lyre/4-lyre.jpg",
+                    "alt": "Scan of the block-lifted lyre",
+                    "caption": "Scan of the block-lifted lyre revealing details within the soil © MOLA"
+                }
+            ],
+            "video": null
+        }
+    },
+    {
+        "id": "2",
+        "title": "A 1400 year old painted box revealed",
+        "hotspot": {
+            "x": "56%",
+            "y": "63%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "This unique find is the only surviving example of early Anglo-Saxon painted woodwork. The wooden box was originally identified as a soil stain around some metal objects, which was then block-lifted and taken to the lab, where detailed micro-excavation exposed hidden fragments of a painted maple-wood surface thought to be from the lid of the box."
+                },
+                {
+                    "tag": "p",
+                    "text": "The box is believed to have been knocked off a wooden chest when the timbers of the chamber roof eventually collapsed. Anglo-Saxon art specialist, Leslie Webster, studied the object and believes that the range of colours – earth pigments of red and yellow ochre, and white from gypsum – is similar to that used in some Anglo-Saxon manuscripts. Raman spectroscopy, which examines the chemical make-up of the material, was used to identify these pigments. The two oval shapes may represent swimming fish, while the yellow ladder pattern resembles the borders seen on Anglo-Saxon gold-and-garnet jewellery."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/painted-box/1-painted-box.jpg",
+                    "alt": "alt text",
+                    "caption": "An illustration of the painted design on the wooden box © MOLA"
+                },
+                {
+                    "src": "/painted-box/2-painted-box.jpg",
+                    "alt": "alt text",
+                    "caption": "A unique fragment of a 1400 year old painted wooden box, the only surviving example of early Anglo-Saxon painted woodwork © MOLA"
+                }
+            ],
+            "video": null
+        }
+    },
+    {
+        "id": "3",
+        "title": "Anglo-Saxon England’s earliest dated princely burial",
+        "hotspot": {
+            "x": "51%",
+            "y": "30%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "Scientific dating has revealed the burial most likely dates to the late 6th century, making this the earliest of the dated Anglo-Saxon princely burials. To date the burial scientifically experts needed organic remains, such as a skeleton to carry out radiocarbon dating or pieces of wood large enough to undertake tree-ring dating, but these did not survive. During conservation, however, it became clear that enough suitable organic material survived in certain artefacts to secure high-precision radiocarbon dates with a technique known as Accelerator Mass Spectrometry, for which only very small samples are required."
+                },
+                {
+                    "tag": "p",
+                    "text": "Horn from one of the drinking horns and maple wood from a small drinking cup provided reliable radiocarbon dates. These were then combined with other dating evidence, to produce a date for the burial narrowed to a period of about 30 years (AD 575–605). This date was refined by tiny gold coins from the coffin, called tremissi from Merovingian France. The coins bear the name of the mint where they were made and the moneyer who made them and were only produced after AD 580."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/drinking-horns-wooden-cups/1-drinking-horn.jpg",
+                    "alt": "alt text",
+                    "caption": "The remains of one of the wooden drinking horns which provided the crucial material for carbon dating the burial chamber © MOLA"
+                },
+                {
+                    "src": "/drinking-horns-wooden-cups/2-drinking-horn.jpg",
+                    "alt": "alt text",
+                    "caption": "A surviving piece of one of the wooden drinking cups which provided some of the organic material that was radio cardon dated © MOLA"
+                },
+                {
+                    "src": "/drinking-horns-wooden-cups/3-drinking-horn.jpg",
+                    "alt": "Drinking vessels in situ within the burial chamber © MOLA",
+                    "caption": "Drinking vessels in situ within the burial chamber © MOLA"
+                }
+            ],
+            "video": {
+                "src": "/drinking-horns-wooden-cups/horns.mp4"
+            }
+        }
+    },
+    {
+        "id": "4",
+        "title": "A Christian surrounded by worldly goods",
+        "hotspot": {
+            "x": "34%",
+            "y": "62%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "The two small gold-foil crosses found together at the head of the coffin are believed to have been placed over the eyes of the deceased. Clearly a symbol of Christianity, the crosses are a unique find in England. The crosses make Prittlewell the only early Anglo-Saxon princely burial in which the person buried can be identified with certainty as a Christian but he was also buried with funerary customs that reflect pre-Christian beliefs and traditions, including the burial mound, the chamber and the grave goods."
+                },
+                {
+                    "tag": "p",
+                    "text": "Gold-foil crosses are known from burials of the late 6th to early 8th centuries AD in Europe but are usually highly decorated single examples sewn to cloth or garments. By contrast, the matching pair of Prittlewell crosses are smaller, undecorated and were not attached to a cloth backing.  Like a gold belt buckle he was wearing, they were probably made especially for the burial."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/gold-crosses-flagon-coins/1-gold-crosses-flagon-coins.jpg",
+                    "alt": "Gold coins",
+                    "caption": "Gold crosses from the earliest dated Christian Anglo-Saxon burial believed to have been placed over the man's eyes © MOLA"
+                },
+                {
+                    "src": "/gold-crosses-flagon-coins/2-gold-crosses-flagon-coins.jpg",
+                    "alt": "Gold coins",
+                    "caption": "Gold coins discovered within the immediate vicinity of the man buried in the chamber which have helped archaeologists to refine the dating © MOLA"
+                }
+            ],
+            "video": {
+                "src": "/gold-crosses-flagon-coins/coins.mp4"
+            }
+        }
+    },
+    {
+        "id": "5",
+        "title": "A coffin fit for a prince",
+        "hotspot": {
+            "x": "43%",
+            "y": "47%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "An imprint of the decayed coffin was excavated within the chamber, with many of its L-shaped iron coffin fittings still in place around the edges. The coffin's outline, along with mineral-preserved wood on the coffin fittings and soil stains indicating planks from the coffin lid, enabled the team to reconstruct this exceptionally large ash-wood coffin with its elaborate lid."
+                },
+                {
+                    "tag": "p",
+                    "text": "It was 2.25 x 0.85m by about 0.5m high and would have weighed around 160kg – its size and the use of iron fittings reflect the importance of the person placed inside. The timber planks would have been joined together with wooden pegs and certain elements reinforced with the iron angle brackets. Its construction, from finding and felling the trees to preparing the boards and making the coffin, represents perhaps 8–13 person-days' work. Iron coffin fittings are rare at this time, but similar coffins with angle brackets are known from burials in Kent and in Merovingian France and neighbouring countries."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/coffin-fittings/1-coffin.jpg",
+                    "alt": "A reconstruction illustration of the decayed ash-wood coffin detailing the locations of the L-shaped iron fittings © MOLA",
+                    "caption": "A reconstruction illustration of the decayed ash-wood coffin detailing the locations of the L-shaped iron fittings © MOLA"
+                }
+            ],
+            "video": {
+                "src": "/coffin-fittings/coffin.mp4"
+            }
+        }
+    },
+    {
+        "id": "6",
+        "title": "A man dressed for a princely burial",
+        "hotspot": {
+            "x": "31%",
+            "y": "52%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "The most striking object in the coffin was a pristine gold buckle, a rare gold example indicating this was a high-status burial. This male status symbol would have fastened a waist belt over his tunic. Gold braid at the neck edged a piece cloth placed over his head, perhaps hiding the gold crosses that rested over his eyes, and at his feet small garter buckles suggest he wore soft leather shoes with cross gartering around his legs fastened over the shoes to keep them in place. The position of the two gold coins suggests that he may have held one in each hand."
+                },
+                {
+                    "tag": "p",
+                    "text": "Fragments of tooth enamel from within the coffin, the only remains of the person buried, show that he was over 6 years old, but offered no possibility of dating or DNA analysis to provide clues as to his identity. The size of the coffin, the position of items in the coffin and the presence of weapons in the chamber suggest this was a man, possibly a young man, about 1.73m (5ft 8in) tall."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/gold-belt-buckle/1-buckle.jpg",
+                    "alt": "alt text",
+                    "caption": "The top of the fine gold belt buckle which would have fastened a belt around the man's tunic © MOLA"
+                },
+                {
+                    "src": "/gold-belt-buckle/2-buckle.jpg",
+                    "alt": "alt text",
+                    "caption": "A side view of the buckle © MOLA"
+                }
+            ],
+            "video": {
+                "src": "/gold-belt-buckle/gold-belt-buckle.mp4"
+            }
+        }
+    },
+    {
+        "id": "7",
+        "title": "A rare ceremonial folding stool",
+        "hotspot": {
+            "x": "45%",
+            "y": "70%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "The Prittlewell folding iron stool is a unique find from early Anglo-Saxon England; examples have been found in high-status burials from the period on the Continent.  It may simply be a piece of aristocratic furniture, but later Anglo-Saxon evidence from poems like Beowulf and images from manuscripts and coins suggests that the Prittlewell stool might be a gifstol (gift seat) from which a lord dispensed rewards and judgement to his loyal followers and warriors, and so a symbol of a ruler or a person with lordly authority."
+                },
+                {
+                    "tag": "p",
+                    "text": "The frame of the stool was formed of two U-shaped pieces joined in the centre by pivot pins and strengthened by cross struts. Although several different sorts of textile were preserved on the stool, none were from its seat, which was probably made of leather. The seat was looped over two retractable iron rods attached to the top sides of the frame."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/folding-stool/1-folding-stool.jpg",
+                    "alt": "alt text",
+                    "caption": "The partly collapsed iron folding stool, which is possibly a symbol of authorty, in-situ in the burial chamber © MOLA"
+                },
+                {
+                    "src": "/folding-stool/2-folding-stool.jpg",
+                    "alt": "alt text",
+                    "caption": "A view into the burial chamber featuring the folding stool in the foreground © MOLA"
+                },
+                {
+                    "src": "/folding-stool/3-folding-stool.jpg",
+                    "alt": "alt text",
+                    "caption": "Illustration of how the leather seat might have attached to the frame of the folding stool © MOLA"
+                }
+            ],
+            "video": {
+                "src": "/folding-stool/folding-stool.mp4"
+            }
+        }
+    },
+    {
+        "id": "8",
+        "title": "A cauldron fit for a feast",
+        "hotspot": {
+            "x": "37%",
+            "y": "23%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "This enormous cauldron (625mm in diameter) would have held enough food for a banquet. The food cooked in it may have included broths or gruel of vegetables and grains (Anglo-Saxon briw), or stews with meat. Along with the drinking vessels, it symbolises large feasts and the hospitality of a lordly host. The richly ornamented drinking horns, decorated bottles and cups, and glass beakers were luxury items, used to impress in public displays of hospitality."
+                },
+                {
+                    "tag": "p",
+                    "text": "The iron-bound buckets might have held ale and the decorated wooden bottles perhaps mead or wine to be drunk from the horns or cups. The latticed blue glass beakers are rare high-status items that were probably manufactured for the elite in nearby Kent and may have been gifts. A particularly splendid pair of drinking bottles was placed by the coffin, along with a joint of beef – perhaps intended as the dead man's share of the feast."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/cauldron/1-cauldron.jpg",
+                    "alt": "alt text",
+                    "caption": "The enormous cauldron which would have held enough food for a banquet. It is another symbol of the man's status © MOLA"
+                },
+                {
+                    "src": "/cauldron/2-cauldron.jpg",
+                    "alt": "alt text",
+                    "caption": "One of two rare blue glass decorated beakers. The two were almost certainly made as a matching pair and discovered in tact within the burial chamber © MOLA"
+                }
+            ],
+            "video": {
+                "src": "/cauldron/hanging-bowl.mp4"
+            }
+        }
+    },
+    {
+        "id": "9",
+        "title": "Treasured personal possessions",
+        "hotspot": {
+            "x": "63%",
+            "y": "70%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "This silver spoon had been placed inside a painted box and is likely to be one of several treasured peronal items. It is Roman or Byzantine,from the eastern Mediterranean, and scratched on the bowl of the spoon are a cross, which is likely to be an ownership mark, and what appear to be three names – 'FABI' ([property of] Fabius), 'BRIT' (perhaps Brittus) and 'ROMN' or 'ROMAI' (perhaps Rom(a)n(us)) – suggesting the spoon  had several owners."
+                },
+                {
+                    "tag": "p",
+                    "text": "A small copper-alloy cylindrical container may have held a good-luck or protective charm, or a relic. A comb was identified but the only remains that survived were layers of antler preserved on a row of small iron rivets that would have held the comb together. An iron knife with a horn handle and leather sheath was found alongside an iron firesteel for fire lighting; it was contained in its own small beech-wood box, perhaps with tinder material. Remains of fine textile among the items may have come from an undergarment."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/silver-spoon/1-silver-spoon.jpg",
+                    "alt": "alt text",
+                    "caption": "MOLA conservator Liz Barham excavates the silver spoon in block lifted soil from the dig in the laboratory (c) MOLA"
+                },
+                {
+                    "src": "/silver-spoon/2-silver-spoon.jpg",
+                    "alt": "alt text",
+                    "caption": "Close up of the silver spoon with visible markings © MOLA"
+                },
+                {
+                    "src": "/silver-spoon/3-silver-spoon.jpg",
+                    "alt": "alt text",
+                    "caption": "A side view of the silver spoon © MOLA"
+                }
+            ],
+            "video": null
+        }
+    },
+    {
+        "id": "10",
+        "title": "The power of the sword",
+        "hotspot": {
+            "x": "60%",
+            "y": "56%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "This skilfully crafted sword is a clear signal that this burial was of aristocratic or royal status. Being buried with weapons symbolised male warrior identity in early Anglo-Saxon England, a sure sign that the person buried here was a man. The sword was placed on the floor of the chamber, with textiles laid over it. Its unusual placement outside the coffin suggests an intentional separation between the Christian burial and the sword, which is a traditional symbol of worldly power."
+                },
+                {
+                    "tag": "p",
+                    "text": "It had collars of ribbed gold wire on the horn handle, a leather-covered wooden scabbard to encase the sword with a sheepskin lining and a complex pattern-welded blades. The pattern-welded blade was constructed from 64 individual iron rods twisted and packed into four strips, then forged together to make the core of the blade, to which the swords cutting edges were then welded; this gives the blade resilience and leaves complex twisting patterns on the polished surface. Other weapons were hung on the south wall – a shield, two spears with intricately carved wooden shafts and an arrow."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/sword/1-sword.jpg",
+                    "alt": "alt text",
+                    "caption": "The sword which was made of iron and had decorative details  © MOLA"
+                },
+                {
+                    "src": "/sword/2-sword.jpg",
+                    "alt": "alt text",
+                    "caption": "Close up of the detailed decorative pattern on the sword © MOLA"
+                },
+                {
+                    "src": "/sword/3-sword.jpg",
+                    "alt": "alt text",
+                    "caption": "A diagram of the pattern-welded sword © MOLA"
+                }
+            ],
+            "video": {
+                "src": "/sword/sword.mp4"
+            }
+        }
+    },
+    {
+        "id": "11",
+        "title": "Far-reaching global connections",
+        "hotspot": {
+            "x": "17%",
+            "y": "35%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "This elaborate copper-alloy flagon, used to carry water, is from the eastern Mediterranean, probably Syria and are rarely found in Western Europe. Around its neck there is a band with three medallions, each with a relief image of St Sergius on horseback. These vessels were acquired by Christian pilgrims to the shrine of St Sergius and Bacchus at Resafa in Syria. It shows the person buried had access to items from the eastern Mediterranean though trade networks or gift exchange."
+                },
+                {
+                    "tag": "p",
+                    "text": "Also from the eastern Mediterranean, are the copper-alloy basin and the inscribed silver spoon. The garnets from the Indian subcontinent or Sri Lanka on the lyre fittings demonstrate even wider connections. Originated from slightly closer to home are the gold coins from Merovingian France and the ornate copper-alloy hanging bowl made by craftsmen in western or northern Britain and probably acquired as a gift."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/flagon/1-flagon.jpg",
+                    "alt": "alt text",
+                    "caption": "An elaborate copper-alloy flagon made in the eastern Mediterranean, probably Syria. This type of vessel was often acquired by Christan pilgrims and shows far reaching connections © MOLA"
+                },
+                {
+                    "src": "/flagon/2-flagon.jpg",
+                    "alt": "alt text",
+                    "caption": "Archaeologist Ian Blair carefully brushes away earth whilst excavating the flagon © MOLA"
+                },
+                {
+                    "src": "/flagon/3-flagon.jpg",
+                    "alt": "alt text",
+                    "caption": "The copper-alloy bowl made in Britain and discovered still in position hanging on the chamber wall © MOLA"
+                }
+            ],
+            "video": null
+        }
+    },
+    {
+        "id": "12",
+        "title": "A whale of a time: games and entertainment",
+        "hotspot": {
+            "x": "20%",
+            "y": "25%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "The iron handle from a wooden gaming board was discovered hanging from a hook on the chamber wall. Near it, a group of 57 whalebone gaming counters and two large antler dice, originally hung in a bag on the wall, were found remarkable well preserved. Gaming equipment has been found buried with other higher-status Anglo-Saxon men but the Prittlewell find is unusual as it is a complete or near-complete set."
+                },
+                {
+                    "tag": "p",
+                    "text": "We do not know exactly what games the set was used for, but the presence of gaming counters and dice suggests that both games of skill, like war games, and games of chance, including racing games, were played."
+                },
+                {
+                    "tag": "p",
+                    "text": "These are the best-preserved organic items from the burial, and their good condition is probably due to localised waterlogging from water penetrating through the decayed roof timbers at the north-east corner; the wet conditions would have prevented them from decaying."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/gaming-pieces/1-gaming-pieces.jpg",
+                    "alt": "alt text",
+                    "caption": "Two large dice made from antler discovered on the floor of the chamber with whalebone gaming counters © MOLA"
+                },
+                {
+                    "src": "/gaming-pieces/2-gaming-pieces.jpg",
+                    "alt": "alt text",
+                    "caption": "57 whalebone gaming counters discovered on the floor of the burial chamber with the pair of dice. It is not known exactly what game they were used for © MOLA"
+                }
+            ],
+            "video": null
+        }
+    },
+    {
+        "id": "13",
+        "title": "113 person-days to construct a chamber",
+        "hotspot": {
+            "x": "64%",
+            "y": "20%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "The underground wooden chamber decayed over hundreds of years, leaving only timber stains in the soil for archaeologists to record. Back in the lab, conservators found mineral-preserved oak wood from the chamber surviving on iron wall hooks and other objects; this revealed details of the wood in various sections of the chamber and allowed the team, which included an engineer and an ancient woodwork specialist, to reconstruct its design."
+                },
+                {
+                    "tag": "p",
+                    "text": "They estimated that it would have required 113 person days' work – to prepare the ground, fell up to 13 oak trees, prepare the timbers and build the chamber – a huge investment in labour and materials. A workforce of 20–25 people, including experienced woodworkers and labourers, could have produced the timbers and erected the chamber in as little as five days, with a further 18 person days to build the mound over the chamber."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/hooks-buckets/1-hooks.jpg",
+                    "alt": "alt text",
+                    "caption": "Iron hooks which were hammered into the wooden chamber walls. The hooks had mineral-preserved wood on them which provided crucial evidence about the construction of the burial chamber © MOLA"
+                },
+                {
+                    "src": "/hooks-buckets/2-hooks.jpg",
+                    "alt": "alt text",
+                    "caption": "A detailed reconstruction of the timber structure of the Prittlewell princely burial chamber based on organic evidence on items within the chamber © MOLA"
+                }
+            ],
+            "video": null
+        }
+    },
+    {
+        "id": "14",
+        "title": "Lighting up the feasting hall",
+        "hotspot": {
+            "x": "28%",
+            "y": "18%"
+        },
+        "content": {
+            "text": [
+                {
+                    "tag": "strong",
+                    "text": "This iron stand, at 1.33m tall, provides a minimum height for the underside of the roof of the chamber. It was probably a candelabrum and several would have been used to light large spaces, such as a great hall. It belongs to a group of rare items, seen more widely in Europe, that derive from Roman and Byzantine lighting equipment."
+                },
+                {
+                    "tag": "p",
+                    "text": "It was discovered still standing upright on its four feet but with its side branches broken off, perhaps when the roof timbers of the chamber caved in. The main shaft had been twisted in alternate directions. At the top it had a central spike, with triple spikes on the side arms, perhaps to hold candles. Wax candles although probably used have rarely been found from this period. Alternatively, plant material soaked in pitch or fat, might have been attached to the spikes."
+                }
+            ],
+            "carousel": [
+                {
+                    "src": "/candelabrum/1-candelabrum.jpg",
+                    "alt": "alt text",
+                    "caption": "The candelabrum was discovered upright in the chamber. The full height of it provided a minimum height for the chamber © MOLA"
+                }
+            ],
+            "video": null
+        }
+    }
+]

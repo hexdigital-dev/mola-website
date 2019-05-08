@@ -1,0 +1,97 @@
+/* ==========================================================================
+   #ANIMATION
+   ========================================================================== */
+
+
+/* -----------------------
+    ---CSS ANIMATION VUE--- */
+
+/* ---tab--- */
+
+.tab-enter-active {
+    transition: opacity .5s ease, transform .5s ease;
+}
+
+.tab-leave-active {
+    position: absolute;
+    transition: opacity .5s ease, transform .5s ease;
+}
+
+.tab-enter-right,
+.tab-leave-to-left {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.tab-leave-to-right,
+.tab-enter-left {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+@include respond-to ('desk') {
+
+    .tab-enter-active,
+    .tab-leave-active {
+        transition: none;
+    }
+}
+
+/* --/tab--- */
+
+
+/* ---opac--- */
+
+.opac {
+
+    &-leave-to,
+    &-enter {
+        opacity: 0;
+    }
+
+    &-enter-active,
+    &-leave-active {
+        transition: opacity .2s ease;
+    }
+}
+
+/* --/opac--- */
+
+
+/* ---uplift--- */
+
+.uplift {
+
+    &-leave-to,
+    &-enter {
+        opacity: 0;
+        transform: scale(.8);
+    }
+
+    &-enter-active,
+    &-leave-active {
+        transition: opacity .2s ease, transform  .2s ease;
+    }
+}
+
+/* --/uplift--- */
+
+
+/* ---drop--- */
+
+.drop {
+
+    &-enter, &-leave-to {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    &-enter-active, &-leave-active {
+        transition: opacity .3s ease, transform .3s ease;
+    }
+}
+
+/* --/drop--- */
+
+/* ---END CSS ANIMATION VUE---
+    -------------------------- */

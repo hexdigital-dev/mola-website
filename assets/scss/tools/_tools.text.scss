@@ -1,0 +1,26 @@
+/* ==========================================================================
+   # TOOLS TEXT
+   ========================================================================== */
+
+/**
+ * alias for font size that use settings $global-text-map from
+ * settings.text file
+ */
+
+@mixin text-styles($size_name, $take_responsive: true) {
+    $text_param: map-get($global-text-map, $size_name);
+    @each $property, $value in $text_param {
+        @if ($property != 'responsive') {
+            #{$property}: $value;
+        }
+        @if ($take_responsive and $property == 'responsive') {
+            @each $media, $resp_param in $value {
+                @include respond-to($media) {
+                    @each $resp_property, $resp_value in $resp_param {
+                        #{$resp_property}: $resp_value;
+                    }
+                }
+            }
+        }
+    }
+}

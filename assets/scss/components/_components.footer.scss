@@ -1,0 +1,120 @@
+.footer {
+    background-color: color('primary');
+    padding-bottom: 78px;
+    padding-top: 68px;
+
+    .main-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        max-width: 1245px;
+    }
+
+    h6 {
+        color: color('light-brown');
+        max-width: 925px;
+        text-align: center;
+    }
+
+    &__top {
+        display: flex;
+        margin-bottom: 80px;
+        width: 100%;
+
+        a:first-child {
+            margin-right: 88px;
+        }
+
+        a {
+            display: inline-block;
+        }
+    }
+
+    .top__leftside, .top__rightside {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top__leftside {
+        margin-right: 89px;
+    }
+
+    .top__rightside {
+        margin-left: auto;
+    }
+
+    .privacy {
+        @include text-styles(base);
+        color: color('dark-white');
+        font-size: 21px;
+        text-decoration: none;
+
+        &:hover {
+            color: color('hover');
+        }
+    }
+
+
+    @include respond-to(desk) {
+        padding-top: 56px;
+
+        &__top {
+
+            a:first-child {
+                margin-right: 45px;
+            }
+        }
+    }
+
+
+    @include respond-to(smallDesk) {
+
+        .footer__top {
+            flex-direction: column;
+        }
+
+        .top__leftside {
+            flex-direction: column;
+            margin-right: 0;
+            order: 1;
+
+            a:first-child {
+                margin-bottom: 56px;
+                margin-right: 0;
+            }
+        }
+
+        .top__rightside {
+            flex-wrap: wrap;
+            margin-bottom: 65px;
+            margin-left: 0;
+
+            a:first-child {
+                margin-right: 20px;
+            }
+
+        }
+    }
+
+    @include respond-to(tablet) {
+        padding-top: 47px;
+
+        &__top {
+            margin-bottom: 70px;
+        }
+    }
+
+    @include respond-to(smallPhone) {
+
+        .top__rightside {
+            align-items: center;
+            flex-direction: column;
+
+            a:first-child {
+                margin-bottom: 20px;
+                margin-right: 0;
+            }
+        }
+    }
+}

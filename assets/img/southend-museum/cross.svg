@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="22px" viewBox="0 0 21 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>X</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Icon-/-X" transform="translate(-6.000000, -5.000000)" stroke="#FFFFFF" stroke-width="4">
+            <g id="X" transform="translate(16.500000, 16.000000) rotate(-315.000000) translate(-16.500000, -16.000000) translate(5.000000, 5.000000)">
+                <path d="M11.5,0.318181818 L11.5,21.5707431" id="Line-2"></path>
+                <path d="M11.3636364,0.292893219 L11.3636364,21.5" id="Line-2-Copy" transform="translate(11.500000, 11.000000) rotate(-270.000000) translate(-11.500000, -11.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

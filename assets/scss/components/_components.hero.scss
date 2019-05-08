@@ -1,0 +1,90 @@
+.hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    top: 0;
+    width: 100%;
+
+    &__bottom {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 218px;
+        text-align: center;
+
+        .description {
+            font-size: 21px;
+            font-weight: normal;
+            margin-bottom: 64px;
+            max-width: 699px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 66px;
+            width: 718px;
+        }
+
+        .button-scroll {
+            margin-bottom: 37px;
+
+            @include respond-to(smallDesk) {
+                margin-bottom: 56px;
+            }
+
+            @include respond-to(tablet) {
+                margin-bottom: 29px;
+            }
+        }
+    }
+
+    h1, h2 {
+        color: #bf9f5c;
+        font-family: font('title');
+        font-weight: 100;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    h2 {
+        margin-bottom: 35px;
+    }
+
+    @include respond-to(smallDesk) {
+        background-size: 120% auto;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        .buttons {
+            flex-direction: column;
+            margin-bottom: 32px;
+            width: 100%;
+
+            .button {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 545px;
+                width: 100%;
+            }
+
+            .button:first-of-type {
+                margin-bottom: 32px;
+            }
+        }
+
+        &__bottom {
+            padding-top: 152px;
+
+            .description {
+                margin-bottom: 32px;
+            }
+        }
+
+        h2 {
+            margin-bottom: 30px;
+        }
+    }
+}

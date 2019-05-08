@@ -1,0 +1,108 @@
+/* ==========================================================================
+   #COLORS
+   ========================================================================== */
+
+/**
+ * The colors settings file contains all colors used throughout the project;
+ */
+
+/**
+ * PALETTE
+ * DON'T USE this colors directly
+ * only from alias color()
+ */
+$bg-general: #1f1919;
+$anthracite: #404040;
+$gold-grey: #bf9f5c;
+
+
+$palette-brown-grey: #b0b0b0;
+$palette-very-light-pink: #eeeeee;
+$palette-cornflower: #6558f5;
+$palette-off-black: #3c3131;
+$palette-camel: #bf9f5c;
+$palette-black: #1b1616;
+$palette-white: #ffffff;
+$palette-brown: #1f191a;
+$palette-greyish-brown: #423636;
+$palette-grape-purple: #6a2432;
+
+
+/**
+ * MONOCHROME
+ */
+$monochrome-colors: (
+    'white': rgb(255, 255, 255),
+    'grey-90': rgb(229, 229, 229),
+    // 'grey-80': rgb(204, 204, 204),
+    'grey-70': rgb(178, 178, 178),
+    // 'grey-60': rgb(153, 153, 153),
+    'grey-50': rgb(127, 127, 127),
+    // 'grey-40': rgb(102, 102, 102),
+    'grey-30': rgb(76, 76, 76),
+    'grey-25': rgb(64, 64, 64),
+    // 'grey-20': rgb(51, 51, 51),
+    'grey-10': rgb(25, 25, 25),
+    'black': rgb(0, 0, 0),
+);
+
+/**
+ * THEME COLOR
+ */
+$theme-colors: (
+    'primary': $bg-general,
+    'primary-alt': $anthracite,
+    'hover': $gold-grey,
+);
+
+/**
+ * CUSTOM COLOR
+ */
+$custom-colors: (
+    brown: #1f1919,
+    dark-brown: #1f1919,
+    light-brown: #423636,
+    dark-white: #e3e0da,
+    gold-grey: $gold-grey,
+
+    // Brand
+    'brand-primary': $palette-camel,
+
+    // Background
+    'background-primary': $palette-brown,
+    'background-secondary': $palette-black,
+
+    // Text
+    'text-primary': $palette-white,
+    'text-secondary': $palette-greyish-brown,
+
+    // Rules
+    'rule-primary': $palette-greyish-brown,
+
+    // Buttons
+    'button-background-primary': $palette-greyish-brown,
+    'button-background-active-primary': $palette-off-black,
+    'button-border-primary': $palette-white,
+    'button-text-primary': $palette-white,
+    'button-text-shadow-primary': $palette-black,
+
+    // Toggle
+    'toggle-background-primary': $palette-greyish-brown,
+    'toggle-slider-color-primary': $palette-brown,
+    'toggle-slider-color-active-primary': $palette-white,
+
+    // Hotspots
+    'hotspot-background-primary': $palette-camel,
+
+    // Carousel Pagination
+    'carousel-dot-background-primary': $palette-greyish-brown,
+    'carousel-dot-background-active-primary': $palette-white,
+
+    // Video Overlay
+    'video-overlay-background-primary': $palette-black,
+);
+
+// Use each of this color with function color() from tools.aliases
+// Example: background-color: color('grey-90');
+$core-colors: map-merge($monochrome-colors, $theme-colors);
+$core-colors: map-merge($core-colors, $custom-colors);

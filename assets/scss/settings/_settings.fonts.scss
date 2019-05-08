@@ -1,0 +1,15 @@
+/* ==========================================================================
+   #SETTINGS FONTS
+   ========================================================================== */
+
+/**
+ * Use each of this font with alias font() from tools.aliases
+ * Example: font-family: font(basic-l);
+ */
+$core-fonts: (
+    basic:    'FuturaStd-Light',
+    basic-b:  'FuturaStd-Bold',
+    basic-sb: 'FuturaStd-Bold',
+    basic-i:  'FuturaStd-BookOblique',
+    title:    'Anglo-Saxon',
+);

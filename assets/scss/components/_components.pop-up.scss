@@ -1,0 +1,144 @@
+.pop-up {
+    cursor: pointer;
+
+    .image {
+        align-items: flex-end;
+        background-color: color('white');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 105%;
+        display: flex;
+        height: 215px;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+        width: 281px;
+
+        > * {
+            bottom: 16px;
+            right: 16px;
+        }
+    }
+
+    &__circle-plus {
+        align-items: center;
+        background-color: color('dark-brown');
+        border-radius: 50%;
+        display: flex;
+        font-size: 32px;
+        height: 48px;
+        justify-content: center;
+        position: relative;
+        width: 48px;
+
+        @mixin symbol-plus($l, $w) {
+            background-color: color('white');
+            content: '';
+            height: $l;
+            position: absolute;
+            width: $w;
+        }
+
+        &:after {
+            @include symbol-plus(18px, 2px);
+        }
+
+        &:before {
+            @include symbol-plus(2px, 18px);
+        }
+    }
+
+    .text {
+        font-size: 14px;
+        font-style: italic;
+        letter-spacing: .2px;
+        line-height: 1.71em;
+        margin-bottom: 32px;
+    }
+
+    &:hover {
+
+        .text {
+            color: color('hover');
+        }
+
+        .pop-up__circle-plus {
+            background-color: color('light-brown');
+        }
+    }
+
+    &__over {
+        align-items: center;
+        cursor: default;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 5;
+
+        .background {
+            background-color: color('black');
+            height: 100vh;
+            opacity: .75;
+            position: fixed;
+            width: 100%;
+        }
+
+        .image {
+            height: calc(100vh - 62px);
+            width: auto;
+            z-index: 1;
+        }
+    }
+
+
+    .over__cross {
+        background-color: color(dark-brown);
+        border-radius: 50%;
+        cursor: pointer;
+        height: 56px;
+        position: absolute;
+        right: 32px;
+        top: 32px;
+        width: 56px;
+        z-index: 2;
+
+        &:after, &:before {
+            background-color: color('white');
+            content: '';
+            height: 2px;
+            left: calc(50% - 15px);
+            position: absolute;
+            top: calc(50% - 1px);
+            width: 30px;
+        }
+
+        &:after {
+            transform: rotate(45deg);
+        }
+
+        &:before {
+            transform: rotate(-45deg);
+        }
+    }
+
+
+
+    @include respond-to(smallDesk) {
+
+        .image {
+            background-size: cover;
+            height: 60vw;
+            width: auto;
+        }
+    }
+
+    @include respond-to(tablet) {
+
+        .text {
+            margin-bottom: 24px;
+        }
+    }
+}

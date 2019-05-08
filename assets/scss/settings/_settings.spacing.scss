@@ -1,0 +1,37 @@
+/* ==========================================================================
+   #SPACING
+   ========================================================================== */
+
+/**
+ *
+ */
+
+// Baseline grid lines height.
+// Every spacing metric should be based on this.
+
+$inuit-global-baseline:     8px;
+
+
+
+// How many grid lines should our spacing unit variants span?
+// Each value should be an unitless integer.
+
+$inuit-global-spacing-unit-factor-tiny:   1;   // 8px
+$inuit-global-spacing-unit-factor-small:  2;   // 16px
+$inuit-global-spacing-unit-factor:        4;   // 32px
+$inuit-global-spacing-unit-factor-large:  7;   // 56px
+$inuit-global-spacing-unit-factor-huge:   16;  // 128px
+
+
+
+// Spacing values are determined based on your project’s global baseline grid.
+// It is not recommended that you modify these following variables
+// (it can break your vertical rhythm), but if you need to, you can.
+
+$inuit-global-spacing-unit:       $inuit-global-baseline * $inuit-global-spacing-unit-factor;
+$inuit-global-spacing-unit-tiny:  $inuit-global-baseline * $inuit-global-spacing-unit-factor-tiny;
+$inuit-global-spacing-unit-small: $inuit-global-baseline * $inuit-global-spacing-unit-factor-small;
+$inuit-global-spacing-unit-large: $inuit-global-baseline * $inuit-global-spacing-unit-factor-large;
+$inuit-global-spacing-unit-huge:  $inuit-global-baseline * $inuit-global-spacing-unit-factor-huge;
+
+@debug($inuit-global-spacing-unit);

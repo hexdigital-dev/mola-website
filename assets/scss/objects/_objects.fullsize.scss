@@ -1,0 +1,25 @@
+/* ==========================================================================
+   #FULLSIZE
+   ========================================================================== */
+
+.o-fullsize {
+    display: block;
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+}
+
+.o-fullsize__content,
+.o-fullsize > iframe,
+.o-fullsize > embed,
+.o-fullsize > img,
+.o-fullsize > video,
+.o-fullsize > object {
+    bottom: 0;
+    height: 100%;
+    left:   0;
+    object-fit: cover;
+    position: absolute;
+    top:    0;
+    width:  100%;
+}

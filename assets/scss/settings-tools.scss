@@ -1,0 +1,30 @@
+// This file is imported into all Vue components.
+// Ensure it outputs only settings and tools to be used in the component
+// stylings, and absolutely no CSS output!
+
+// SETTINGS
+@import 'settings/settings.core.scss'; // copy
+@import 'settings/settings.global';
+@import 'settings/settings.spacing'; // copy
+@import 'settings/settings.colors';
+@import 'settings/settings.layout';
+@import 'settings/settings.responsive';
+@import 'settings/settings.text';
+@import 'settings/settings.transitions';
+
+
+
+
+
+// TOOLS
+// @import '~node_modules/sass-mq/mq.scss';
+@import 'tools/tools.hidden.scss';  // copy
+@import 'tools/tools.font-size.scss'; // copy
+@import 'tools/tools.clearfix'; // copy
+@import 'tools/tools.colors'; // copy
+@import 'tools/tools.helpers';
+@import 'tools/tools.layout'; // copy
+@import 'tools/tools.mixins';
+@import 'tools/tools.text';
+@import 'tools/tools.transitions'; // copy
+@import 'tools/tools.aliases';

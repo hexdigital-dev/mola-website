@@ -1,0 +1,39 @@
+.front-advantages {
+    color: color('white');
+    display: flex;
+
+
+    .block {
+        padding-bottom: 32px;
+        padding-top: 42px;
+
+        &_anthracite {
+            background-color: color(primary-alt);
+        }
+
+        &_chestnut {
+            background-color: color(primary);
+        }
+
+        &_darkgray {
+            background-color: color(dark-gray);
+        }
+    }
+
+    .block:not(.main-padleft):not(.main-padright) {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .main-padleft {
+        padding-right: 48px;
+    }
+
+    .main-padright {
+        padding-left: 48px;
+    }
+
+    .block__title {
+        margin-bottom: 26px;
+    }
+}

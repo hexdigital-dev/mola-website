@@ -1,0 +1,25 @@
+.turn {
+    align-items: center;
+    background: color('dark-brown');
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+    z-index: 5;
+
+    &__image {
+        height: 10%;
+        margin-bottom: 24px;
+        max-height: 128px;
+        min-height: 64px;
+        width: auto;
+    }
+
+    p {
+        font-family: font('basic');
+        font-size: 18px;
+        max-width: 276px;
+        text-align: center;
+    }
+}

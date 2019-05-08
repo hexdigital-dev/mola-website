@@ -1,0 +1,39 @@
+/* ==========================================================================
+   #MIXINS
+   ========================================================================== */
+
+/**
+ * The mixins tools file contains functions for generating common CSS patterns;
+ * Most notable is the keyframes mixin for generating keyframes cross-browser.
+ */
+
+/* stylelint-disable at-rule-no-vendor-prefix */
+
+@mixin keyframes($_name) {
+    @-webkit-keyframes #{$_name} {
+        @content;
+    }
+    @-moz-keyframes #{$_name} {
+        @content;
+    }
+    @-o-keyframes #{$_name} {
+        @content;
+    }
+    @keyframes #{$_name} {
+        @content;
+    }
+}
+
+/**
+ * The mixin for easer using of media. Use title of display size
+ * from settings.responsive ($mq-breakpoints)
+ */
+@mixin respond-to($media) {
+    @if not map-has-key($mq-breakpoints, $media) {
+        @warn 'Media `#{$media}` not found in map $mq-breakpoints. This media now empty';
+    }
+
+    @media only screen and (max-width: map-get($mq-breakpoints, $media)) {
+        @content;
+    }
+}

@@ -1,0 +1,76 @@
+/* ==========================================================================
+   #HEADINGS
+   ========================================================================== */
+
+/**
+ * Reset the default styles of the headers so that the text is not bold.
+ */
+
+/* global headers by design */
+
+h4, h5, h6, p {
+    font-family: font('basic');
+}
+
+h1, h2, h3 {
+    color: color('gold-grey');
+    font-family: font('title');
+    font-weight: 100;
+    text-transform: uppercase;
+    // background: url('https://media.nationalgeographic.org/assets/photos/000/205/20529.jpg') no-repeat center center;
+    // -webkit-background-clip: text;
+    // background-size: cover;
+    // color: #fff;
+    // font-family: font('title');
+    // font-weight: 100;
+    // // padding: 2em;
+    // // text-align: center;
+    // -webkit-text-fill-color: transparent;
+    // text-transform: uppercase;
+}
+
+h1 {
+    @include text-styles('huge');
+}
+
+h2 {
+    @include text-styles('large');
+}
+
+h3 {
+    @include text-styles('big');
+}
+
+h4 {
+    @include text-styles('medium');
+    font-family: font(basic);
+}
+
+h5 {
+    @include text-styles('base');
+}
+
+h6 {
+    @include text-styles('small');
+}
+
+p {
+    @include text-styles('base');
+    font-size: 21px;
+    margin-bottom: 32px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.background-text {
+    background: url('https://media.nationalgeographic.org/assets/photos/000/205/20529.jpg') no-repeat center center;
+    -webkit-background-clip: text;
+    background-size: cover;
+    // color: #fff;
+    // font-family: font('title');
+    // font-weight: 100;
+    -webkit-text-fill-color: transparent;
+    // text-transform: uppercase;
+}

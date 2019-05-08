@@ -1,0 +1,44 @@
+/* ==========================================================================
+   #ALIASES
+   ========================================================================== */
+
+/**
+ * The aliases tools file contains aliases for shortening long variable, mixin
+ * and function names to make them easier to use throughout the project.
+ */
+
+@mixin font-size($inuit-font-size, $inuit-line-height: auto) {
+    @include inuit-font-size($inuit-font-size, $inuit-line-height);
+}
+
+@mixin hidden-visually() {
+    @include inuit-hidden-visually();
+}
+
+@function z($_key) {
+    @return z-index($_key);
+}
+
+/**
+ * alias for color that use settings $core-colors from
+ * settings.colors file
+ */
+@function color($_color) {
+    @if not map-has-key($core-colors, $_color) {
+        @warn 'Color `#{$_color}` not found in map `#{$core-colors}`. Return Transparent';
+        @return transparent;
+    }
+    @return map-get($core-colors, $_color);
+}
+
+/**
+ * alias for font that use settings $core-fonts from
+ * settings.fonts file
+ */
+@function font($_font) {
+    @if not map-has-key($core-fonts, $_font) {
+        @warn 'Font `#{$_font}` not found in map `#{$core-fonts}`. Return Arial';
+        @return Arial;
+    }
+    @return map-get($core-fonts, $_font);
+}

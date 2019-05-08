@@ -1,0 +1,62 @@
+/* ==========================================================================
+   #MEDIA
+   ========================================================================== */
+
+/**
+ * Place any image- and text-like content side-by-side, as per:
+ * http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code
+ */
+
+.o-media {
+    @include inuit-clearfix();
+    display: block;
+}
+
+.o-media__head {
+    float: left;
+    margin-right: $inuit-global-spacing-unit;
+
+    > img {
+        display: block;
+    }
+
+}
+
+.o-media__body {
+    display: block;
+    overflow: hidden;
+
+    &, > :last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+
+
+
+
+/* Alignment modifiers
+   ========================================================================== */
+
+.o-media--middle {
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+
+/* Reversed media objects
+   ========================================================================== */
+
+.o-media--reverse {
+
+    > .o-media__img {
+        float: right;
+        margin-left: $inuit-global-spacing-unit;
+        margin-right: 0;
+    }
+
+}
