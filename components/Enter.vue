@@ -5,7 +5,7 @@
                 ready to enter?
             </h3>
             <Button
-                href="/"
+                to="/museum"
                 text="enter the chamber"
             />
         </div>
