@@ -4,10 +4,16 @@
             <div class="footer__top">
                 <div class="top__leftside">
                     <a href="https://www.mola.org.uk/">
-                        <img :src="logoMola">
+                        <img
+                            :src="logoMola"
+                            style="height: 76px; width: 79px;"
+                        >
                     </a>
                     <a href="https://www.southend.gov.uk">
-                        <img :src="logoSouthend">
+                        <img
+                            :src="logoSouthend"
+                            style="height: 61px; width: 199px;"
+                        >
                     </a>
                 </div>
                 <div class="top__rightside">
