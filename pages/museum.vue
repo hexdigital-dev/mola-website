@@ -10,7 +10,18 @@
         />
     </div>
 </template>
-
+<script>
+export default {
+    head() {
+        return {
+            title: 'MOLA | Prittlewell Princely Burial',
+            meta: [
+                { hid: 'description', name: 'description', content: 'Archaeologists discovered an extraordinary Anglo-Saxon princely burial in Prittlewell in 2003, but many of its secrets remained hidden, only to be revealed as experts began their painstaking research.' },
+            ],
+        };
+    },
+};
+</script>
 <style lang="scss">
 
 $_embed-scales: (
