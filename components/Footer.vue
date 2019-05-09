@@ -41,7 +41,6 @@ import ButtonTop from './ButtonTop';
 const logoMola = require('~/assets/img/logos/mola-full-big.png');
 const logoSouthend = require('~/assets/img/logos/southend-big.png');
 
-
 export default {
     components: {
         ButtonTop,

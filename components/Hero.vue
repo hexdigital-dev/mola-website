@@ -45,7 +45,7 @@ import Header from './Header';
 import Button from './Button';
 import ButtonScroll from './ButtonScroll';
 
-const bgImg = require('~/assets/img/bg-hero.png');
+const bgImg = require('~/assets/img/chamber-hero.jpg');
 const bgTitle = require('~/assets/img/bg-title-gold.jpg');
 
 export default {
