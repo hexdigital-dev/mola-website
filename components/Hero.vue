@@ -1,42 +1,56 @@
 <template>
     <div
         class="hero"
-        :style="`background-image: url(${img.bgImg});`"
+        :class="{'hero--loaded': heroMounted}"
     >
-        <Header />
-        <div class="hero__bottom">
-            <div class="bg-text">
-                <h1
-                    :style="styleTitle"
-                >
-                    PRittlewell
-                </h1>
-                <h2
-                    :style="styleTitle"
-                >
-                    princely burial
-                </h2>
+        <transition name="fade">
+            <img
+                v-show="heroMounted"
+                alt=""
+                class="hero__image"
+                :src="img.bgImg"
+            >
+        </transition>
+        <div class="hero__content">
+            <Header />
+            <div class="hero__bottom">
+                <transition name="fade">
+                    <div v-show="heroMounted">
+                        <div class="bg-text">
+                            <h1
+                                :style="styleTitle"
+                            >
+                                PRITTLEWELL
+                            </h1>
+                            <h2
+                                :style="styleTitle"
+                            >
+                                PRINCELY BURIAL
+                            </h2>
+                        </div>
+                        <div class="description">
+                            Archaeologists discovered an extraordinary
+                            Anglo-Saxon princely burial in Prittlewell
+                            in 2003, but many of its secrets remained
+                            hidden, only to be revealed as experts
+                            began their painstaking research.
+                        </div>
+                        <div class="buttons">
+                            <Button
+                                scroll=".post"
+                                href="##"
+                                text="Discover more"
+                            />
+                            <Button
+                                to="/museum"
+                                text="Enter The Chamber"
+                                :background="false"
+                            />
+                        </div>
+                        <button-scroll />
+                    </div>
+                </transition>
             </div>
-            <div class="description">
-                Archaeologists discovered an extraordinary
-                Anglo-Saxon princely burial in Prittlewell
-                in 2003, but many of its secrets remained
-                hidden, only to be revealed as experts
-                began their painstaking research.
-            </div>
-            <div class="buttons">
-                <Button
-                    scroll=".post"
-                    href="##"
-                    text="Discover more"
-                />
-                <Button
-                    to="/museum"
-                    text="Enter The Chamber"
-                    :background="false"
-                />
-            </div>
-            <button-scroll />
         </div>
     </div>
 </template>
@@ -61,6 +75,7 @@ export default {
                 bgTitle,
             },
             isBrowserWebkit: true,
+            heroMounted: false,
         };
     },
     computed: {
@@ -79,6 +94,7 @@ export default {
         if (navigator.userAgent.search(/NET CLR /) > 0) {
             this.isBrowserWebkit = false;
         }
+        this.heroMounted = true;
     },
 };
 </script>
