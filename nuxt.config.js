@@ -43,6 +43,7 @@ module.exports = {
         // Doc: https://axios.nuxtjs.org/usage
         '@nuxtjs/axios',
         '@nuxtjs/style-resources',
+        '@nuxtjs/component-cache',
         ['@nuxtjs/google-analytics', {
             id: 'UA-139906874-1',
         }],
