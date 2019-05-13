@@ -76,7 +76,7 @@ export default {
                 },
                 {
                     imgNum: 2,
-                    text: 'The top of a wooden drinking bottles with decorated gold neck in-situ',
+                    text: 'In-situ drinking vessels, with decorated necks',
                 },
             ],
             isBrowserWebkit: true,
