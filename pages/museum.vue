@@ -4,7 +4,7 @@
             <span class="v-embed__overlay-text">Please rotate your<br>device to landscape</span>
         </div>
         <iframe
-            src="https://southend-interactive-display.netlify.com/"
+            src="https://southend-interactive-display.netlify.app/"
             frameborder="0"
             class="frame"
         />
